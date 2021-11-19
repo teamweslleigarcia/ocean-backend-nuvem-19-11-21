@@ -9,22 +9,22 @@ const {MongoClient, ObjectId} = require ("mongodb")
 //Realizar Operacoes
 
 // Connection URL
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://admin:<BcGQHD94xjatlLuX>@cluster0.cqkex.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 // Database Name
-const dbName = 'ocean_bd_18_11_21';
+const dbName = 'ocean_nuvem_bd_19_11_21';
 
 async function main() {
 
-/*
+
   const client = await MongoClient.connect(url);
 
   const db = client.db(dbName);
 
   const collection = db.collection("herois");
-*/
 
-  const collection = undefined;
+
+ 
 
   //Para Expressar considerar o corpo da requisicao em formato JSON
   app.use(express.json());
