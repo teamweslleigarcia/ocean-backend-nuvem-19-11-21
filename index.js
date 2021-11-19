@@ -16,11 +16,15 @@ const dbName = 'ocean_bd_18_11_21';
 
 async function main() {
 
+/*
   const client = await MongoClient.connect(url);
 
   const db = client.db(dbName);
 
   const collection = db.collection("herois");
+*/
+
+  const collection = undefined;
 
   //Para Expressar considerar o corpo da requisicao em formato JSON
   app.use(express.json());
@@ -96,6 +100,6 @@ async function main() {
     res.send("Registro Removido com Sucesso")
   })
 
-  app.listen(3000)
+  app.listen(process.env.PORT || 3000)
 }
 main();
