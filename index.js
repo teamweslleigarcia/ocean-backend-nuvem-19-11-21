@@ -9,7 +9,7 @@ const {MongoClient, ObjectId} = require ("mongodb")
 //Realizar Operacoes
 
 // Connection URL
-const url = 'mongodb+srv://admin:<BcGQHD94xjatlLuX>@cluster0.cqkex.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const url = 'mongodb+srv://admin:BcGQHD94xjatlLuX@cluster0.cqkex.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 // Database Name
 const dbName = 'ocean_nuvem_bd_19_11_21';
